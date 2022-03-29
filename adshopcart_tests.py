@@ -13,6 +13,7 @@ class AdvantageshopAppPostiveTestCases(unittest.TestCase):
         methods.log_out()
         methods.log_in()
         methods.delete_test_account()
+        methods.check_homepage()
         methods.tearDown()
 
 
